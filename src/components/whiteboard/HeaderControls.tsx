@@ -16,20 +16,7 @@ interface HeaderControlsProps {
 }
 
 const LogoSvg = () => (
-  <svg width="24" height="22" viewBox="0 0 76 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="43.984" cy="33.3027" r="7.91935" stroke="hsl(var(--accent))" strokeWidth="2"/>
-    <circle cx="40.8492" cy="57.3548" r="6.93548" stroke="hsl(var(--primary))" strokeWidth="2"/>
-    <line x1="22.0737" y1="62.0967" x2="40.8491" y2="57.3548" stroke="hsl(var(--accent))" strokeWidth="11.871" strokeLinecap="round"/>
-    <line x1="40.8491" y1="57.3548" x2="51.0307" y2="42.7661" stroke="hsl(var(--accent))" strokeWidth="11.871" strokeLinecap="round"/>
-    <line x1="43.9839" y1="33.3027" x2="57.7985" y2="23.5124" stroke="hsl(var(--primary))" strokeWidth="13.8468" strokeLinecap="round"/>
-    <line x1="43.9839" y1="33.3027" x2="60.7502" y2="48.8833" stroke="hsl(var(--primary))" strokeWidth="13.8468" strokeLinecap="round"/>
-    <circle cx="18.0077" cy="64.0645" r="10.8871" fill="hsl(var(--accent))"/>
-    <circle cx="40.8491" cy="57.3548" r="5.93548" fill="hsl(var(--accent))"/>
-    <circle cx="53.9835" cy="38.8306" r="5.93548" fill="hsl(var(--accent))"/>
-    <circle cx="61.7338" cy="17.5806" r="12.8629" fill="hsl(var(--primary))"/>
-    <circle cx="43.9839" cy="33.3027" r="6.91935" fill="hsl(var(--primary))"/>
-    <circle cx="64.7015" cy="52.8185" r="6.91935" fill="hsl(var(--primary))"/>
-  </svg>
+  <img src="https://payr.org.in/logo.png" width={30} />
 );
 
 
@@ -47,7 +34,7 @@ export default function HeaderControls({
     >
       <div className="flex items-center space-x-2">
         <LogoSvg />
-        <h1 className="text-md font-headline font-semibold hidden sm:block">Payr Board</h1>
+        <h1 className="text-md font-headline font-medium hidden sm:block text-gray-400">Board</h1>
       </div>
       <div className="flex-1 max-w-xs md:max-w-sm lg:max-w-md">
         <Input
