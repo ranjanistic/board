@@ -16,7 +16,7 @@ interface HeaderControlsProps {
 }
 
 const LogoSvg = () => (
-  <img src="https://payr.org.in/logo.png" width={30} />
+  <img src="https://static.vecteezy.com/system/resources/previews/047/299/947/non_2x/board-icon-symbol-design-illustration-vector.jpg" width={30} />
 );
 
 

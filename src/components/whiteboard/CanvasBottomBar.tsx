@@ -12,7 +12,7 @@ import type { BackgroundType, DrawingTool } from '@/types';
 import { cn } from '@/lib/utils';
 
 const AboutLogo = () => (
-  <img src="https://payr.org.in/logo.png" alt="Payr Logo" width="20" height="20" />
+  <img src="https://avatars.githubusercontent.com/u/41323263?v=4" alt="ranjanistic" className='rounded-full' width="20" height="20" />
 );
 
 interface CanvasBottomBarProps {
@@ -225,11 +225,11 @@ export default function CanvasBottomBar({
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button variant="outline" size="icon" onClick={() => window.open("https://payr.org.in", "_blank")} className="h-9 w-9">
+              <Button variant="outline" size="icon" onClick={() => window.open("https://github.com/ranjanistic", "_blank")} className="h-9 w-9">
                 <AboutLogo />
               </Button>
             </TooltipTrigger>
-            <TooltipContent><p>About Payr</p></TooltipContent>
+            <TooltipContent><p>Priyanshu Ranjan</p></TooltipContent>
           </Tooltip>
         </div>
       </footer>
