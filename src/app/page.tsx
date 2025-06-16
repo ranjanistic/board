@@ -394,7 +394,7 @@ export default function WhiteboardPage() {
 
 
   if (!activeWhiteboard || !activePage || canvasWidth === 0 || canvasHeight === 0) {
-    return <div className="flex h-screen w-screen items-center justify-center bg-background"><p>Loading Payr Board...</p></div>;
+    return <div className="flex h-screen w-screen items-center justify-center bg-background"><p>Loading Unboard...</p></div>;
   }
 
   return (

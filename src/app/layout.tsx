@@ -21,7 +21,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Payr Board',
+  title: 'Unboard',
   description: 'Create and refine sketches on multiple whiteboards.',
 };
 

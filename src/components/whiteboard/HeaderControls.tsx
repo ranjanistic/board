@@ -34,7 +34,7 @@ export default function HeaderControls({
     >
       <div className="flex items-center space-x-2">
         <LogoSvg />
-        <h1 className="text-md font-headline font-medium hidden sm:block text-gray-400">Board</h1>
+        <h1 className="text-md font-headline font-medium hidden sm:block text-gray-400">Unboard</h1>
       </div>
       <div className="flex-1 max-w-xs md:max-w-sm lg:max-w-md">
         <Input
