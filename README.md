@@ -1,6 +1,6 @@
-# Board
+# Unoard
 
-A simple whiteboard app, client side.
+A simple whiteboard app, client side. Built on NextJS.
 
 ## Prerequisites
 
