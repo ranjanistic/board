@@ -1,5 +1,28 @@
-# Firebase Studio
+# Board
 
-This is a NextJS starter in Firebase Studio.
+A simple whiteboard app, client side.
 
-To get started, take a look at src/app/page.tsx.
+## Prerequisites
+
+- npm
+- node 20
+
+## Setup
+
+```bash
+npm i
+```
+
+## Run
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+
